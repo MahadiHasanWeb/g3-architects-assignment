@@ -198,7 +198,8 @@ header {
     font-size: 16px;
     color: #727272;
 }
-.some-facts-box-container{
+
+.some-facts-box-container {
     display: flex;
     margin-bottom: 180px;
     align-items: center;
@@ -206,6 +207,7 @@ header {
     margin-left: 100px;
     margin-right: 100px;
 }
+
 .some-facts-box p {
     color: #727272;
 }
@@ -218,14 +220,15 @@ header {
 }
 
 .some-facts-box {
-    width: 160px;
+    width: 150px;
     padding: 40px;
     text-align: center;
     box-shadow: 2px 2px 25px rgb(232, 232, 232);
     border-radius: 8px;
 }
+
 .some-facts-box:hover {
-    width: 160px;
+    width: 150px;
     padding: 40px;
     text-align: center;
     box-shadow: 2px 2px 25px rgb(232, 232, 232);
@@ -235,3 +238,55 @@ header {
 
 /* Some Facts section end */
 
+
+/* Our Sponsors Start */
+.our-sponsors-container {
+    text-align: center;
+    margin-bottom: 140px;
+}
+
+.our-sponsors-container h3 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+.our-sponsors-container p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 50px;
+}
+
+.our-sponsors-img {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-sponsors {
+    width: 140px;
+}
+
+/* Our Sponsors End */
+
+/* footer Start */
+footer {
+   display: flex;
+   justify-content: center;
+}
+footer p{
+    text-align: center;
+    margin-bottom: 100px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    color: #424242;
+    
+    padding: 20px 50px;
+    border: 0;
+    width: 800px;
+}
+
+/* footer end */
