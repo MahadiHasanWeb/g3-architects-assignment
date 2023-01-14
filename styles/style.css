@@ -130,7 +130,7 @@ header {
 
 /* Quick list of Our Features start */
 
-.Features-2-container{
+.Features-2-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -139,6 +139,7 @@ header {
     margin-right: 100px;
     margin-bottom: 130px;
 }
+
 .Features-2-love-h2 {
     font-weight: 700;
     font-size: 45px;
@@ -171,8 +172,66 @@ header {
     font-size: 20px;
     color: #131313;
 }
-.Features-2-img img{
+
+.Features-2-img img {
     width: 450px;
 }
 
 /* Quick list of Our Features End */
+
+/* Some Facts start */
+
+.some-facts {
+    width: 550px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+.some-facts h3 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.some-facts p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.some-facts-box-container{
+    display: flex;
+    margin-bottom: 180px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.some-facts-box p {
+    color: #727272;
+}
+
+.some-facts-box h2 {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    margin-bottom: 5px;
+}
+
+.some-facts-box {
+    width: 160px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 2px 2px 25px rgb(232, 232, 232);
+    border-radius: 8px;
+}
+.some-facts-box:hover {
+    width: 160px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 2px 2px 25px rgb(232, 232, 232);
+    border: 2px solid #FF900E;
+    border-radius: 8px;
+}
+
+/* Some Facts section end */
+
