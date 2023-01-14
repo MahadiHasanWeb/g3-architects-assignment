@@ -75,11 +75,104 @@ header {
     border: 0;
     margin-bottom: 50px;
 }
-.banner-img img{
-   width: 70%;
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
+
+.banner-img img {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* ------------ Banner section End --------------- */
+
+/* Quick list of Our Features start */
+
+.Features-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 130px;
+}
+
+.Features-img img {
+    width: 230px;
+}
+
+.Features-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.Features-text h2 {
+    font-weight: 500;
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+
+.Features-text .span-1 {
+    color: #727272;
+}
+
+.Features-text .span-2 {
+    color: #FF900E;
+}
+
+.Features-text p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+
+/* Quick list of Our Features start */
+
+.Features-2-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 130px;
+}
+.Features-2-love-h2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.Features-2-love-p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 30px;
+    margin-top: 24px;
+}
+
+.Features-2-box {
+    /* width: 480px;
+    height: 70px; */
+    padding: 20px;
+    box-shadow: 5px 5px 25px rgb(232, 232, 232);
+}
+
+.Features-2-box p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.Features-2-box h4 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+.Features-2-img img{
+    width: 450px;
+}
+
+/* Quick list of Our Features End */
